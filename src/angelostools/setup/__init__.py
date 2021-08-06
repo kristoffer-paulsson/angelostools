@@ -12,11 +12,3 @@
 # Contributors:
 #     Kristoffer Paulsson - initial implementation
 #
-
-from .vendor import Vendor, VendorCompileNacl, VendorCompilePython
-
-__all__ = [
-    "Vendor",
-    "VendorCompileNacl",
-    "VendorCompilePython"
-]
